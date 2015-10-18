@@ -1,0 +1,3 @@
+Set carousel images to be a link to its respective page
+
+Possibly use Google Drive as a file host

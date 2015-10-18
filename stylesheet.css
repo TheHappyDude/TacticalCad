@@ -1,0 +1,46 @@
+/*
+  Contains style elements of all the webpages
+  Kaiwen Wang
+*/
+
+* {
+    font-family: "Helvetica", "Courier", "Sans-serif";
+}
+
+a {
+    text-decoration:none;
+}
+
+body {
+    background-image:url("imgs/hexagon.jpg");
+    background-repeat:repeat;
+}
+
+ul {
+    list-style-type:none;
+}
+.heading {
+    font-size:14pt;
+}
+
+.selected {
+    color:#000000;
+}
+
+.unselected {
+    color:#555555;
+}
+
+#banner {
+    width:100%;
+    height:auto;
+}
+
+#menu {
+    width:100%;
+    background-color:#FFA500;
+}
+
+#sidebar {
+    padding-right:50px;
+}
