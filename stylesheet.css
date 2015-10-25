@@ -4,7 +4,7 @@
 */
 
 * {
-    font-family: "Helvetica", "Courier", "Sans-serif";
+    font-family:"Helvetica", "Courier", "Sans-serif";
 }
 
 a {
@@ -21,6 +21,15 @@ ul {
 }
 .heading {
     font-size:14pt;
+}
+
+.itemTile {
+    border:1px solid black;
+    list-style-type:none;
+}
+
+.itemTile a {
+    text-decoration:none;
 }
 
 .selected {
