@@ -1,3 +1,5 @@
 Set carousel images to be a link to its respective page
 
-Possibly use Google Drive as a file host
+Design a page format
+
+Make images for everything
