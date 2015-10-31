@@ -5,7 +5,7 @@ var nerfParts = 3;         //Find way to get server to update this in the future
 var fstrikeParts = 2;       //Same here
 var retalParts = 1;         //and here
 var protoParts = 5;         //and here too
-var univParts = 0;         //and here
+var univParts = 1;         //and here
 
 //Generates actions on web page load, which will be most of them
 $(document).ready(function(){

@@ -4,57 +4,80 @@
 */
 
 * {
-    font-family:"Helvetica", "Courier", "Sans-serif";
+    font-family: "Helvetica", "Courier", "Sans-serif";
 }
 
 a {
-    text-decoration:none;
+    text-decoration: none;
 }
 
 body {
-    background-image:url("imgs/hexagon.jpg");
-    background-repeat:repeat;
+    background-image: url("imgs/hexagon.jpg");
+    background-repeat: repeat;
 }
 
 img {
-    max-width:100%;
-    max-height:auto;
+    max-width: 100%;
+    max-height: auto;
 }
 
 ul {
-    list-style-type:none;
+    list-style-type: none;
 }
+
+.downloadButton {
+    display: block;
+    height: 50px;
+    width: 200px;
+    background: -webkit-linear-gradient(#555555, #000000);  /* Safari */
+    background: -o-linear-gradient(#555555, #000000);       /* Opera */
+    background: -moz-linear-gradient(#555555, #000000);     /* Firefox */
+    background: linear-gradient(#555555, #000000);          /* Everything else */
+
+    border-radius: 10px;
+
+    color: #000000;
+    font: 18px/50px Helvetica;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.downloadButton a {
+    text-decoration: none;
+    color: #00FFFF;
+}
+
 .heading {
-    font-size:14pt;
+    font-size: 14pt;
 }
 
 .itemTile {
-    border:1px solid black;
-    list-style-type:none;
+    border: 1px solid black;
+    list-style-type: none;
 }
 
 .itemTile a {
-    text-decoration:none;
+    text-decoration: none;
 }
 
 .selected {
-    color:#000000;
+    color: #000000;
 }
 
 .unselected {
-    color:#555555;
+    color: #555555;
 }
 
 #banner {
-    width:100%;
-    height:auto;
+    width: 100%;
+    height: auto;
 }
 
 #menu {
-    width:100%;
-    background-color:#FFA500;
+    width: 100%;
+    background-color: #FFA500;
 }
 
 #sidebar {
-    padding-right:50px;
+    padding-right: 50px;
 }
