@@ -42,6 +42,10 @@ ul {
     text-transform: uppercase;
 }
 
+.carouselImage {
+    height: 400px;
+}
+
 .downloadButton a {
     text-decoration: none;
     color: #00FFFF;
@@ -49,6 +53,10 @@ ul {
 
 .heading {
     font-size: 14pt;
+}
+
+.item {
+    height: 400px;
 }
 
 .itemTile {
@@ -70,6 +78,10 @@ ul {
 
 #banner {
     width: 100%;
+    height: auto;
+}
+
+#carousel {
     height: auto;
 }
 
