@@ -26,3 +26,12 @@ function determineSelected(pageName) {
     var str = "#" + pageName;
     $(str).removeClass("unselected").addClass("selected");
 }
+
+function printFooter() {
+    var sidebar="";
+    sidebar += "<hr>"
+    sidebar += "<small>So this is normally where copyright information goes. Since I don't have any, here's a smiley face :D</small>"
+    sidebar += "<br><small>Send questions/suggestions to tacticalcad@gmail.com</small>"
+    sidebar += "<br><hr>"
+    document.write(sidebar);
+}

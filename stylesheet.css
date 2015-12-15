@@ -21,6 +21,11 @@ img {
     max-height: auto;
 }
 
+small {
+    text-align: center;
+    display: block;
+}
+
 ul {
     list-style-type: none;
 }
