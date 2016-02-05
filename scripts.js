@@ -1,8 +1,8 @@
 //Contains Javascript and JQuery elements of the web page
 //Kaiwen Wang
 
-var nerfParts = 4;         //Find way to get server to update this in the future
-var fstrikeParts = 2;       //Same here
+var nerfParts = 5;         //Find way to get server to update this in the future
+var fstrikeParts = 3;       //Same here
 var retalParts = 1;         //and here
 var protoParts = 0;         //and here too
 var univParts = 1;         //and here
