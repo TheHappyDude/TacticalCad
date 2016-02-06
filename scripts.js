@@ -8,7 +8,7 @@ var protoParts = 0;         //and here too
 var univParts = 1;         //and here
 
 //Generates actions on web page load, which will be most of them
-$(document).ready(function(){
+$(document).ready(function() {
     setCounts();
 });
 
@@ -28,10 +28,10 @@ function determineSelected(pageName) {
 }
 
 function printFooter() {
-    var sidebar="";
+    /*var sidebar="";
     sidebar += "<br><hr>"
     sidebar += "<small>So this is normally where copyright information goes. Since I don't have any, here's a smiley face :D</small>"
     sidebar += "<br><small>Send questions/suggestions to tacticalcad@gmail.com</small>"
     sidebar += "<br><hr>"
-    document.write(sidebar);
+    document.write(sidebar);*/
 }
