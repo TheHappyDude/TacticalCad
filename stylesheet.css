@@ -95,6 +95,11 @@ ul {
     background-color: #FFA500;
 }
 
+#navbar-custom {
+    background-color: #000000;
+    font-color: #FFA500;
+}
+
 #sidebar {
     padding-right: 50px;
 }
