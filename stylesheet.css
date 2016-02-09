@@ -73,6 +73,11 @@ ul {
     text-decoration: none;
 }
 
+.navbar-custom {
+    background-color: #000000;
+    font-color: #FFA500;
+}
+
 .selected {
     color: #000000;
 }
@@ -93,11 +98,6 @@ ul {
 #menu {
     width: 100%;
     background-color: #FFA500;
-}
-
-#navbar-custom {
-    background-color: #000000;
-    font-color: #FFA500;
 }
 
 #sidebar {
