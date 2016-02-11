@@ -29,10 +29,10 @@ function determineSelected(pageName) {
 
 function printFooter() {
     var sidebar="";
-    sidebar += "<br><hr>"
+    sidebar += "<div style=\"background-color: white;\"><br><hr>"
     sidebar += "<small>So this is normally where copyright information goes. Since I don't have any, here's a smiley face :D</small>"
     sidebar += "<br><small>Send questions/suggestions to tacticalcad@gmail.com</small>"
-    sidebar += "<br><hr>"
+    sidebar += "<br><hr></div>"
 
     document.write(sidebar);
 }
