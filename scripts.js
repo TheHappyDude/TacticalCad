@@ -12,7 +12,6 @@ $(document).ready(function() {
     setCounts();
 });
 
-
 //Sets the badge count on the menu bar
 function setCounts() {
     document.getElementById("nerfCount").innerHTML = nerfParts;
